@@ -10,6 +10,9 @@ const useCounter = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  return counter;
+//   this will make counter state available for ForwardCaounter
 };
 
 export default useCounter;
